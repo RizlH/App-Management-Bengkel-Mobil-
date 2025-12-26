@@ -1,0 +1,131 @@
+# ====================
+# CodeIgniter 4
+# ====================
+
+# Environment file (jangan commit ke repo)
+.env
+
+# Direktori writable (cache, logs, session, dll)
+/writable/cache/**
+/writable/logs/**
+/writable/session/**
+/writable/debugbar/**
+
+# Direktori untuk upload
+/public/uploads/**
+!/public/uploads/.gitkeep
+
+# Testing
+/coverage/
+
+# Composer
+/vendor/
+composer.lock
+
+# ====================
+# Sistem Operasi
+# ====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ====================
+# IDE & Editor
+# ====================
+
+# PHPStorm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/
+build/
+
+# Sublime Text
+*.sublime-*
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ====================
+# Development & Testing
+# ====================
+
+# Log file kustom
+*.log
+logs/
+
+# Unit testing
+phpunit.xml
+/phpunit.xml.dist
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package files
+package-lock.json
+yarn.lock
+
+# ====================
+# Database
+# ====================
+
+# File database development (jangan commit!)
+*.db
+*.sqlite
+*.sqlite3
+
+# Database backup files
+*.bak
+*.backup
+
+# ====================
+# SSL/TLS
+# ====================
+
+*.pem
+*.key
+*.crt
+*.csr
+
+# ====================
+# Custom
+# ====================
+
+# File konfigurasi kustom
+/config/development/
+/config/staging/
+
+# File temporary
+/tmp/
+/temp/
+
+# File upload testing
+!**/test_upload/*
+**/test_upload/*
