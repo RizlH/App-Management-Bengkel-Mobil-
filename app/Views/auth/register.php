@@ -411,7 +411,7 @@
                                     <input type="password" class="form-control" name="password" id="password"
                                            placeholder="Minimal 6 karakter" required >
                                     <button class="btn btn-outline-secondary" type="button" id="togglePassword" 
-                                            style="position: absolute; right: 0; top: 0; height: 100%; border: none; background: transparent;">
+                                            style="position: absolute; right: 50px; top: 0; height: 100%; border: none; background: transparent;">
                                         <i class="fas fa-eye"></i>
                                     </button>
                                 </div>
@@ -431,7 +431,7 @@
                     <!-- Section 3: Pemulihan Akun -->
                     <div class="form-section">
                         <h6 class="form-section-title">
-                            <i class="fas fa-key me-2"></i>Pemulihan Akun
+                            <i class="fas fa-key me-2"></i>Verifikasi Cepat
                         </h6>
                         
                         <div class="alert alert-info">
