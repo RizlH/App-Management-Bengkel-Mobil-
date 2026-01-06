@@ -97,7 +97,6 @@ yarn.lock
 # ====================
 
 # File database development (jangan commit!)
-*.db
 *.sqlite
 *.sqlite3
 
